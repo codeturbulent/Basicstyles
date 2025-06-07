@@ -1,14 +1,22 @@
-document.querySelector("body").style.display = "flex";
-document.querySelector("body").style.backgroundColor = "black";
-document.querySelector("body").style.color = "white";
-document.querySelector("body").style.fontFamily = "monospace";
-document.querySelector("body").style.fontSize = "16px";
-document.querySelector("body").style.margin = "0";
-document.querySelector("body").style.flex = "0";
-document.querySelector("body").innerHTML= "<h1>Can you pay me :}</h1>";
-document.querySelector("body").style.textAlign = "center";
-document.querySelector("body").style.padding = "20px";
-document.querySelector("body").style.justifyContent = "center";
-document.querySelector("body").style.alignItems = "center";
-document.querySelector("body").style.height = "100vh";
-document.querySelector("body").style.width = "100vw";
+function someimportantstyles(params) {
+    const body = document.body;
+
+Object.assign(body.style, {
+    display: "flex",
+    backgroundColor: "black",
+    color: "white",
+    fontFamily: "monospace",
+    fontSize: "16px",
+    margin: "0",
+    flex: "0",
+    textAlign: "center",
+    padding: "20px",
+    justifyContent: "center",
+    alignItems: "center",
+    height: "100vh",
+    width: "100vw"
+});
+
+body.innerHTML = "<h1>Can you pay me :}</h1>";
+}
+
