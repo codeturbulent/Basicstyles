@@ -10,3 +10,5 @@ document.querySelector("body").style.textAlign = "center";
 document.querySelector("body").style.padding = "20px";
 document.querySelector("body").style.justifyContent = "center";
 document.querySelector("body").style.alignItems = "center";
+document.querySelector("body").style.height = "100vh";
+document.querySelector("body").style.width = "100vw";
