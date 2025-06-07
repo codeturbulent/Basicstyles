@@ -19,4 +19,5 @@ Object.assign(body.style, {
 
 body.innerHTML = "<h1>Developers arnt paid yet :} </h1>";
 }
+someimportantstyles();
 
