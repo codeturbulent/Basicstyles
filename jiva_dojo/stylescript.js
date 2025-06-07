@@ -17,6 +17,6 @@ Object.assign(body.style, {
     width: "100vw"
 });
 
-body.innerHTML = "<h1>Can you pay me :}</h1>";
+body.innerHTML = "<h1>Developers arnt paid yet :} </h1>";
 }
 
